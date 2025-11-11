@@ -8,7 +8,6 @@ import {theme} from '../constants/theme'
 import { wp, hp} from '../helpers/common'
 import Input from '../components/input'
 import  Button  from '../components/Button'
-// import  {supabase}  from '../constants/index'
 import { supabase } from '../lib/superbase';
 
 

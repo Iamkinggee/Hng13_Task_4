@@ -9,6 +9,10 @@ import Logout from './Logout'
 import ArrowLeft from './ArrowLeft'
 import Heart from './Heart'
 import Plus from './Plus'
+import Edit from './Edit'
+import Camera from './Camera'
+import Location from './Location'
+import Call from './Call'
 
   const icons ={
         home: Home,
@@ -18,10 +22,10 @@ import Plus from './Plus'
         heart: Heart,
         plus: Plus,
         // search: Search,
-        // location: Location,
-        // call: Call,
-        // camera: Camera,
-        // edit:Edit,
+        location: Location,
+        call: Call,
+        camera: Camera,
+        edit:Edit,
           arrowLeft: ArrowLeft,
         // threeDotsCircle: ThreeDotsCircle,
         // threeDotsHorizontal: ThreeDotsHorizontal,

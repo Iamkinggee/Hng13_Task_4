@@ -32,7 +32,7 @@ const MainLayout = () => {
       console.log('session user: ', session?.user?.id);
       if(session){
           setAuth(session?.user);
-          updateUserData(session?.user);
+          updateUserData(session?.user, session?.user?.email);
           router.replace('/home');
       }else{
           setAuth(null);
@@ -41,10 +41,10 @@ const MainLayout = () => {
     })
   }, []);
 
-  const updateUserData = async(user)=>{
+  const updateUserData = async(user, email)=>{
     let res = await getUserData(user?.id);
     // console.log('got user data: ', res);
-    if(res.success) setUserData(res.data);
+    if(res.success) setUserData({...res.data, email});
   }
 
 
