@@ -34,7 +34,7 @@ const SignUp = () => {
     setLoading(true);
 
 
-// wo
+// working
 
     const { data, error } = await supabase.auth.signUp({
   email,
@@ -45,6 +45,9 @@ const SignUp = () => {
     },
   },
 });
+
+
+
 
 
 console.log('data:', data);

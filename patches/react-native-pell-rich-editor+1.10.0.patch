@@ -1,0 +1,13 @@
+diff --git a/node_modules/react-native-pell-rich-editor/src/RichEditor.js b/node_modules/react-native-pell-rich-editor/src/RichEditor.js
+index f194ac3..f430cea 100644
+--- a/node_modules/react-native-pell-rich-editor/src/RichEditor.js
++++ b/node_modules/react-native-pell-rich-editor/src/RichEditor.js
+@@ -20,7 +20,7 @@ export default class RichTextEditor extends Component {
+     defaultParagraphSeparator: 'div',
+     editorInitializedCallback: () => {},
+     initialHeight: 0,
+-    dataDetectorTypes: ['none'],
++   
+   };
+ 
+   constructor(props) {
